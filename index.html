@@ -1,61 +1,46 @@
-<!DOCTYPE html><html lang="en"><head><title>hi my name is ashley hi</title><link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet"><link href="/public/vendor/Skeleton-2.0.4/css/normalize.css" rel="stylesheet"><link href="/public/vendor/Skeleton-2.0.4/css/skeleton.css" rel="stylesheet"><link href="/public/css/styles.css" rel="stylesheet"></head><body><a href="https://github.com/ashleygwilliams/ashleygwilliams.github.io"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a><div class="container"><div class="row"><h1>GET /ashleygwilliams</h1><div class="row"><div class="one-half column"><a href="/explorer.html" class="button button-primary u-full-width">Explore the API!</a></div><div class="one-half column"><a href="/about.html" class="button button-primary u-full-width">About Ashley</a></div></div><pre><div class="code">{
-  "data": [{
-    "type": "engineer/educator",
-    "id": 666,
-    "name": "ashley g. williams",
-    "job": {
-      "company": <a href="http://www.npmjs.com">"npm, Inc."</a>,
-      "role": "developer community and content manager"
-    },
-    "location": "ridgewood, queens, NY",
-    "email": <a href="mailto:ashley666ashley@gmail.com">"ashley666ashley@gmail.com"</a>,
-    "twitter": <a href="http://www.twitter.com/ag_dubs">"http://www.twitter.com/ag_dubs"</a>,
-    "github": <a href="http://www.github.com/ashleygwilliams">"http://www.github.com/ashleygwilliams"</a>,
-    "links": {
-      "self": <a href="http://ashleygwilliams.github.io">"http://ashleygwilliams.github.io"</a>,
-      "projects": {
-        "linkage": [
-          { "type": "framework", "name": "endpoints"},
-          { "type": "education", "name": "js-assessment"}
-        ]
-      },
-      "presentations": {
-        "linkage": {
-                      "type": "presentations",
-                      "name": "how to train your programmer"
-                   }
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta charset="utf-8" />
+
+    <title>Protest tweeting</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <style>
+      body {
+        margin: 4em auto;
+        text-align: center;
       }
-    }
-  }],
-  "included": [{
-    "type": "projects",
-    "name": "endpoints",
-    "description": "a hypermedia API framework for javascript",
-    "role": "architecture decisions and documentation",
-    "links": {
-      "self": <a href="http://www.github.com/endpoints">"http://www.github.com/endpoints"</a>
-    }
-  }, {
-    "type": "projects",
-    "name": "js-assessment",
-    "description": "a test-drven approach to assessing JS skills",
-    "role": "maintainer",
-    "links": {
-      "self": <a href="http://www.github.com/rmurphey/js-assessment">"http://www.github.com/rmurphey/js-assessment"</a>,
-      "next": <a href="http://www.github.com/rmurphey/js-assessment-answers">"http://www.github.com/rmurphey/js-assessment-answers"</a>
-    }
-  }, {
-    "type": "presentations",
-    "name": "how to train your programmer",
-    "venues": [
-      "CascadiaFest July 2015",
-      "JSConf May 2015",
-      "MIT Media Lab, Social Computing Group October 2014",
-      "BostonJS August 2014",
-      "University of Amsterdam, Coding the Humanities Seminar June 2014"
-    ],
-    "links": {
-      "self": <a href="http://www.github.com/ashleygwilliams/how-to-train-your-programmer">"http://www.github.com/ashleygwilliams/how-to-train-your-programmer"</a>
-    }
-  }]
-}</div></pre></div></div></body></html>
+      article { font-size:  }
+      article > a {
+        border: solid 1px #999;
+        display: inline-block;
+        margin: 0.1em;
+        padding: 0.1em 0.2em;
+        font-size: 4em;
+        color: #333;
+        text-decoration: none;
+      }
+      footer { color: #999; }
+      footer > a { color: #99f; }
+    </style>
+  </head>
+
+  <body>
+
+    <article>
+      <div>Bookmark this button<br>and use in Tweetdeck</div>
+      <a href="javascript:(function()%7BTD.services.TwitterClient.prototype.makeTwitterCall%3Dfunction(b%2Ce%2Cf%2Cg%2Cc%2Cd%2Ch)%7Bc%3Dc%7C%7Cfunction()%7B%7D%3Bd%3Dd%7C%7Cfunction()%7B%7D%3Bb%3Dthis.request(b%2C%7Bmethod%3Af%2Cparams%3AObject.assign(e%2C%7Bweighted_character_count%3A!0%7D)%2Cprocessor%3Ag%2CfeedType%3Ah%7D)%3Breturn b.addCallbacks(function(a)%7Bc(a.data)%7D%2Cfunction(a)%7Bd(a.req%2C""%2Ca.msg%2Ca.req.errors)%7D)%2Cb%7D%3BtwttrTxt%3DObject.assign(%7B%7D%2Ctwttr.txt%2C%7BisInvalidTweet%3Afunction()%7Breturn!1%7D%2CgetTweetLength%3Afunction()%7Breturn twttr.txt.getTweetLength.apply(this%2Carguments)+70%7D%7D)%7D)()">Tweet 70</a>
+    </article>
+
+
+    <footer>
+      Thx 2 <a href="https://juliette.sh/280/">Juliette Pretot</a> & <a href="https://gist.github.com/Zemnmez/ffb5449d873d5407c7172534b762ae46">Zemnmez</a>
+    </footer>
+
+  </body>
+</html>
